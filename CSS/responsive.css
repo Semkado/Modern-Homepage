@@ -1,0 +1,54 @@
+#welcomeH1{
+    font-size: 2em;
+    font-family: 'Poiret One', cursive;
+    overflow: hidden;
+    animation: bounceIn;
+    animation-duration: 1.5s;
+}
+.image{
+    display: none;
+}
+.container {
+    display: none;
+}
+.textbox:hover {
+    display: none;
+}
+.text {
+    display: none;
+}
+.textbox {
+    display: none;
+}
+.left_text {
+    width: 100%;
+}
+.right_text{
+    display: none;
+}
+.project-section{
+    margin-left: 0;
+}
+.projekt-section .headline {
+    padding-left: 0;
+}
+.projekt-section .headline h2 {
+    padding-left: 0;   
+}
+.block-menu{
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 500px){
+    #welcomeH1{
+        font-size: 1.5em;
+        font-family: 'Poiret One', cursive;
+        overflow: hidden;
+        animation: bounceIn;
+        animation-duration: 1.5s;
+    }
+    .nav_right{
+        display: none;
+    }
+}
